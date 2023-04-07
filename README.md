@@ -3,7 +3,7 @@ A curated blockchain-related academic papers. All papers are sorted based on the
 Welcome developers or researchers to add more published paper to this list. 
 
 ## Table of Listed Conferences
-|     Seucrity & Privacy & Crypto     |               Networking & Database               | Software Engineering & Programming Language | System Architecture  |
+|     Security & Privacy & Crypto     |               Networking & Database               | Software Engineering & Programming Language | System Architecture  |
 | :---------------------------------: | :-----------------------------------------------: | :-----------------------------------------: | :------------------: |
 |          [CRYPTO](#crypto)          | [SIGMETRICS & Performance](#sigmetricperformance) |                [ICSE](#icse)                | [EuroSys](#eurosys)  |
 |       [EUROCRYPT](#eurocrypt)       |                   [ICDE](#icde)                   |            [ESEC/FSE](#esecfse)             |  [ACM SOSP](#sosp)   |
@@ -11,9 +11,9 @@ Welcome developers or researchers to add more published paper to this list.
 |           [IEEE S&P](#sp)           |               [ACM SIGMOD](#sigmod)               |              [ACM PLDI](#pldi)              |    [SRDS](#srds)     |
 |            [NDSS](#ndss)            |             [IEEE INFOCOM](#infocom)              |            [ACM OOPSLA](#oopsla)            |  [ACM PODC](#podc)   |
 |           [ACM CCS](#ccs)           |                   [NSDI](#nsdi)                   |                [ACM EC](#ec)                | [IEEE IPDPS](#ipdps) |
-|              [FC](#fc)              |               [ACM CoNEXT](#conext)               |               [ISSTA](#issta)               |   [IEEE DSN](#dsn)   |
-|                                     |              [ACM MobiHoc](#mobihoc)              |              [ACM POPL](#popl)              | [IEEE ICDCS](#icdcs) |
-|                                     |                                                   |                                             |  [ACM SOCC](#socc)   |
+|             [IEEE DSN](#dsn)        |               [ACM CoNEXT](#conext)               |               [ISSTA](#issta)               |  [IEEE ICDCS](#icdcs)|
+|              [FC](#fc)              |              [ACM MobiHoc](#mobihoc)              |              [ACM POPL](#popl)              | [ACM SOCC](#socc)    |
+|            [IMC](#imc)              |                                                   |                                             |                      |
 
 
 ## Table of Listed Journals
@@ -213,6 +213,21 @@ Charlie Hou, Mingxun Zhou, Yan Ji and Phil Daian, Florian Tramèr, Giulia Fanti,
 
 [Consensus-PoET][Multi-Certificate Attacks against Proof-of-Elapsed-Time and Their Countermeasures](). Huibo Wang, Guoxing Chen, Yinqian Zhang, Zhiqiang Lin. NDSS '22. 
 
+[Smart Contract][POSE: Practical Off-chain Smart Contract Execution](). Tommaso Frassetto, Patrick Jauernig, David Koisser, David Kretzler, Benjamin Schlosser, Sebastian Faust, and Ahmad-Reza Sadeghi. NDSS '23.  
+
+[Smart Contract][Smarter Contracts: Detecting Vulnerabilities in Smart Contracts with Deep Transfer Learning](). Christoph Sendner, Huili Chen, Hossein Fereidooni, Lukas Petzi, Jan König, Jasper Stang, and Alexandra Dmitrienko, Ahmad-Reza Sadeghi, Farinaz Koushanfar. NDSS '23.  
+
+[Consensus][LOKI: State-Aware Fuzzing Framework for the Implementation of Blockchain Consensus Protocols](). Fuchen Ma, Yuanliang Chen, Meng Ren, Yuanhang Zhou, and Yu Jiang, Ting Chen, Huizhong Li, Jiaguang Sun. NDSS '23.   
+
+[Measurement][etecting and Investigating Propagated Vulnerabilities in Forked Blockchain Projects](). iao Yi, Yuzhou Fang, and Daoyuan Wu, Lingxiao Jiang. NDSS '23.  
+
+[Payment Channel][Breaking And Fixing UTXO-Based Virtual Channels](). Lukas Aumayr, Pedro Moreno-Sanchez, Aniket Kate, Matteo Maffei. NDSS '23.  
+
+[Consensus][Partitioning Ethereum without Eclipsing It](). Hwanjo Heo and Seungwon Woo, Tae Ung Yoon, Min Suk Kang and Seungwon Shin. NDSS '23.  
+
+[Security][Double and Nothing: Understanding and Detecting Cryptocurrency Giveaway Scams](https://double-and-nothing.github.io/). Xigao Li, Anurag Yepuri, and Nick Nikiforakis. NDSS '23.   
+
+[Payment Channel][He-HTLC: Revisiting Incentives in HTLC]() Sarisht Wadhwa and Jannis Stoeter, Fan Zhang, Kartik Nayak. NDSS '23.   
 
 ## CCS
 [Consensus-PoW-Mining] [Double-Spending Fast Payments in Bitcoin](https://www.eecis.udel.edu/~ruizhang/CISC859/S17/Paper/p9.pdf). Karame, Ghassan O. and Androulaki, Elli and Capkun, Srdjan. CCS '12.
@@ -485,6 +500,9 @@ Carsten Binnig, Arvind Arasu, Donald Kossmann, Ravi Ramamurthy. VLDB'19.
 ## ISSTA
 [Smart Contract] [Exploiting The Laws of Order in Smart Contracts](https://dl.acm.org/doi/10.1145/3293882.3330560). Aashish Kolluri, Ivica Nikoli ́ c, Ilya Sergey, Aquinas Hobor, Prateek Saxena. ISSTA '19
 
+[Smart Contract] [EShield: protect smart contracts against reverse engineering](https://dl.acm.org/doi/abs/10.1145/3395363.3404365).
+Wentian Yan, Jianbo Gao, Zhenhao Wu, Yue Li, Zhi Guan, Qingshan Li, Zhong Chen. ISSTA '20
+
 [Smart Contract] [How effective are smart contract analysis tools? evaluating smart contract static analysis tools using bug injection](https://dl.acm.org/doi/10.1145/3395363.3397385). Asem Ghaleb, Karthik Pattabiraman. ISSTA '20
 
 [Smart Contract] [eTainter: Detecting Gas-Related Vulnerabilities in Smart Contracts](https://doi.org/10.1145/3533767.3534378). Asem Ghaleb, Julia Rubin, Karthik Pattabiraman. ISSTA '22
@@ -710,6 +728,10 @@ Yang Xiao, Ning Zhang, Wenjing Lou and Thomas Hou. INFOCOM'20
 ## EC
 [Economic-PoW] [An Economic Analysis of Difficulty Adjustment Algorithms in Proof-of-Work Blockchain Systems](https://econ.hkbu.edu.hk/eng/Doc/Shunya_NODA_POW.pdf). Shunya Noda, Kyohei Okumura and Yoshinori Hashimoto. EC '20.
 
+## IMC
+[Transaction-Prioritization] [Selfish & Opaque Transaction Ordering in the Bitcoin Blockchain: The Case for Chain Neutrality](https://dl.acm.org/doi/10.1145/3487552.3487823). Johnnatan Messias, Mohamed Alzayat, Balakrishnan Chandrasekaran, Krishna P. Gummadi, Patrick Loiseau, and Alan Mislove. IMC '21.
+
+[Defi] [A flash(bot) in the pan: measuring maximal extractable value in private pools](https://dl.acm.org/doi/abs/10.1145/3517745.3561448). Ben Weintraub, Christof Ferreira Torres, Cristina Nita-Rotaru, and Radu State. IMC '22.
 
 ## Journals
 
